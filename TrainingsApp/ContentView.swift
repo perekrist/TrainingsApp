@@ -7,10 +7,46 @@
 //
 
 import SwiftUI
+import VisionKit
 
 struct ContentView: View {
+    @State var isSheetShowing = false
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            VStack {
+                
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        self.isSheetShowing.toggle()
+                    }) {
+                        Image(systemName: "plus")
+                            .font(.title)
+                            .foregroundColor(.black)
+                            .padding(.horizontal)
+                    }
+                }
+                
+                HStack {
+                    Text("Habit")
+                        .font(.title)
+                        .padding(.horizontal)
+                    Spacer()
+                    ForEach(0 ..< 5){ i in
+                        Text("\(i*5)")
+                    }
+                }
+                
+                ScrollView {
+                    ForEach((0 ..< 10), id: \.self) { card in
+                        HabitView()
+                    }
+                }
+                
+                
+                Spacer()
+            }.padding(.top, 50)
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 

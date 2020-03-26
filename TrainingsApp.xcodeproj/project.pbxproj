@@ -15,6 +15,9 @@
 		CA0F391B2429FF1C00C8E1F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0F391A2429FF1C00C8E1F2 /* Preview Assets.xcassets */; };
 		CA0F391E2429FF1C00C8E1F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0F391C2429FF1C00C8E1F2 /* LaunchScreen.storyboard */; };
 		CA21D0FA242A7A4B0041A966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CA21D0F9242A7A4B0041A966 /* GoogleService-Info.plist */; };
+		CA21D0FC242B1F1E0041A966 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA21D0FB242B1F1E0041A966 /* Storyboard.storyboard */; };
+		CA21D0FE242B1FD40041A966 /* CustomController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21D0FD242B1FD40041A966 /* CustomController.swift */; };
+		CA21D100242CD08A0041A966 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA21D0FF242CD08A0041A966 /* HabitView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		CA0F391D2429FF1C00C8E1F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA0F391F2429FF1C00C8E1F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA21D0F9242A7A4B0041A966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CA21D0FB242B1F1E0041A966 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		CA21D0FD242B1FD40041A966 /* CustomController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomController.swift; sourceTree = "<group>"; };
+		CA21D0FF242CD08A0041A966 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 		D6B4487788A6D446C4EEB8D7 /* Pods-TrainingsApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrainingsApp.release.xcconfig"; path = "Target Support Files/Pods-TrainingsApp/Pods-TrainingsApp.release.xcconfig"; sourceTree = "<group>"; };
 		E05EC7309F1AD3253B9FB352 /* Pods_TrainingsApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrainingsApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -90,6 +96,9 @@
 				CA21D0F9242A7A4B0041A966 /* GoogleService-Info.plist */,
 				CA0F391F2429FF1C00C8E1F2 /* Info.plist */,
 				CA0F39192429FF1C00C8E1F2 /* Preview Content */,
+				CA21D0FB242B1F1E0041A966 /* Storyboard.storyboard */,
+				CA21D0FD242B1FD40041A966 /* CustomController.swift */,
+				CA21D0FF242CD08A0041A966 /* HabitView.swift */,
 			);
 			path = TrainingsApp;
 			sourceTree = "<group>";
@@ -166,6 +175,7 @@
 				CA21D0FA242A7A4B0041A966 /* GoogleService-Info.plist in Resources */,
 				CA0F391B2429FF1C00C8E1F2 /* Preview Assets.xcassets in Resources */,
 				CA0F39182429FF1C00C8E1F2 /* Assets.xcassets in Resources */,
+				CA21D0FC242B1F1E0041A966 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,9 +228,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA21D0FE242B1FD40041A966 /* CustomController.swift in Sources */,
 				CA0F39122429FF1000C8E1F2 /* AppDelegate.swift in Sources */,
 				CA0F39142429FF1000C8E1F2 /* SceneDelegate.swift in Sources */,
 				CA0F39162429FF1000C8E1F2 /* ContentView.swift in Sources */,
+				CA21D100242CD08A0041A966 /* HabitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
